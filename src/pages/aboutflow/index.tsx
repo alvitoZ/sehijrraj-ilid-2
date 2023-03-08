@@ -1,6 +1,6 @@
 import React from "react";
 import BlankTemplate from "@/components/templates/BlankTemplate";
-import Aboutflows from "@/components/molecules/Aboutflows";
+import Aboutflows from "@/components/molecules/AboutFlows";
 
 const index = () => {
   return (

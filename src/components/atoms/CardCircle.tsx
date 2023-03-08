@@ -31,7 +31,7 @@ const CardCircle: NextPage<Props> = ({
         />
       </div>
       <div className="pb-2">
-        <h3 className="text-[28px] font-bold text-[#5D5A88] text-center">
+        <h3 className="text-3xl font-bold text-[#5D5A88] text-center">
           {title}
         </h3>
       </div>

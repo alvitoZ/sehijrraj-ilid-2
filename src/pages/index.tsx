@@ -6,6 +6,7 @@ import ProgramList from "@/components/molecules/ProgramList";
 import DarkModeToggle from "@/components/molecules/DarkModeToggle";
 import Galery from "@/components/molecules/Article1";
 import Article1 from "@/components/molecules/Galery";
+import Glock from "@/components/molecules/Glock";
 
 const index = (props: any) => {
   return (

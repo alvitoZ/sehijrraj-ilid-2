@@ -66,7 +66,7 @@ const ProgramList = () => {
       <div className=" text-center text-[#843C74] pb-5 font-extrabold ">
         <h1 className=" text-3xl">Program Unggulan Sehjira</h1>
       </div>
-      <div className=" flex flex-wrap items-center justify-center gap-10">
+      <div className=" flex flex-wrap items-center justify-center gap-1">
         <div onClick={() => kiri()}>kiri</div>
         {List.slice(angkaKiri, angkaKanan).map((e, i) => {
           return <Cards key={i} image={e.image} caption={e.caption} />;
