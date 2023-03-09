@@ -23,7 +23,7 @@ const VisiMisi: NextPage<Props> = ({
     <div className="flex justify-center flex-col items-start w-[70%]">
       <div>
         <div className="pt-6 pb-12 h-auto items-start">
-          <h3 className="leading-[3rem] text-[64px] font-bold text-[#1E1E1E]">
+          <h3 className="leading-[3rem] text-6xl font-bold text-[#1E1E1E]">
             {title}
           </h3>
         </div>

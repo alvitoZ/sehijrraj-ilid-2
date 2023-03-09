@@ -14,7 +14,8 @@ const index = (props: any) => {
       <DarkModeToggle />
       <ImageHome />
       <Section />
-      <ProgramList />
+      {/* <ProgramList /> */}
+      <Glock />
       <Article1 />
       <Galery />
     </BlankTemplate>

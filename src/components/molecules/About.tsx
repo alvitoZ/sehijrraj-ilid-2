@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import CardCircle from "../atoms/CardCircle";
-import Link from "next/link";
 import Button from "../atoms/Button";
 import TimSehijira from "./TimSehijira";
 import VisiMisi from "../atoms/VisiMisi";
+import Glock from "./Glock";
+import LogoSlider from "./LogoSlider";
 
 const About = () => {
   return (
@@ -74,7 +75,7 @@ const About = () => {
             identitas saat ini.
           </li>
         </VisiMisi>
-        <div>
+        <div className="flex w-[70%] items-start">
           <VisiMisi
             title="Visi"
             content="Visi Yayasan SEHJIRA adalah pemberdayaaan disabilitas rungu/Tuli guna terwujudnya individu yang tangguh dan mandiri serta ikut berpartisipasi dalam pembangunan Indonesia inklusif."
@@ -97,9 +98,14 @@ const About = () => {
             </li>
           </VisiMisi>
         </div>
+        <VisiMisi
+          title="Mitra Kerja Sama"
+          content="Berikut adalah Partner yang pernah bekerja Sama dengan Yayasan Sehjira"
+        ></VisiMisi>
       </div>
-      <Image src="/images/f.jpg" alt="sehjira" height={200} width={450} />
-
+      <div className="py-5-">
+        <LogoSlider />
+      </div>
       <TimSehijira />
 
       <div className=" flex text-center justify-center items-center">
